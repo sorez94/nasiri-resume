@@ -1,0 +1,131 @@
+.section {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutBg {
+    position: absolute;
+    right: 0;
+    /*filter: blur(5px);*/
+    margin-top: 10px;
+    background-size: cover;
+    width: 532px;
+    height: 376px
+}
+
+.aboutBgFlip {
+    position: absolute;
+    left: 0;
+    /*filter: blur(5px);*/
+    margin-top: 500px;
+    background-size: cover;
+}
+
+
+.workExperience {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    margin-top: 30px;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    background: rgba(0, 0, 0, 0.01);
+    border-radius: 16px;
+    -webkit-box-shadow: 0 0 30px rgba(191, 174, 174, 0.5);
+    box-shadow: 0 0 30px rgba(191, 174, 174, 0.5);
+    /*box-shadow: 0 30px 30px rgba(191, 174, 174, 0.5);*/
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.ulDashed {
+    list-style-type: '\2014  ';
+}
+
+.ulDashed > li::marker {
+    color: #457EAB;
+    font-size: 28px;
+}
+
+.experienceContext {
+    text-align: justify;
+    padding: 50px;
+}
+
+.headerLi {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 20px 0;
+}
+
+.bodyContext {
+    font-size: 26px;
+    font-weight: normal !important;
+    display: block;
+}
+
+.frontEndOl {
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.projectName {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.experienceTechComponent {
+    background-color: #254A66;
+    float: left;
+    margin: 5px 20px 40px 0px;
+    padding: 2px 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.seperator {
+    height: 54px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .section {
+        padding: 40px 0 0 0;
+    }
+
+    .workExperience {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .aboutBg {
+        width: 150px;
+        height: 111px
+    }
+
+    .aboutBgFlip {
+        width: 150px;
+        height: 111px;
+        margin-top: 450px;
+    }
+
+    .ulDashed > li::marker {
+        font-size: 20px;
+    }
+
+    .experienceContext {
+        padding: 10px 15px;
+    }
+
+    .headerLi {
+        font-size: 16px;
+    }
+
+    .bodyContext {
+        font-size: 14px;
+    }
+
+}

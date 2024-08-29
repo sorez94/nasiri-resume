@@ -1,0 +1,57 @@
+.section {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .section {
+        padding: 40px 0 0 0;
+    }
+}
+
+.mayKnow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    background: rgba(0, 0, 0, 0.81);
+    border-radius: 16px;
+    -webkit-box-shadow: 0 0 30px rgba(191, 174, 174, 0.5);
+    box-shadow: 0 0 30px rgba(191, 174, 174, 0.5);
+    /*box-shadow: 0 30px 30px rgba(191, 174, 174, 0.5);*/
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/*@media only screen and (max-width: 1200px) {*/
+/*    .mayKnow {*/
+/*        width: 100%;*/
+/*        display: grid;*/
+/*        grid-template-columns: 1fr 1fr;*/
+/*    }*/
+/*}*/
+
+
+@media only screen and (max-width: 1400px) and (min-width: 1000px) {
+    .mayKnow {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 650px) {
+    .mayKnow {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .mayKnow {
+        grid-template-columns: 1fr 1fr;
+    }
+}

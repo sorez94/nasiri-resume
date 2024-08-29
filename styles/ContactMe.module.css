@@ -1,0 +1,48 @@
+.contactMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2Sec {
+    margin: 60px;
+}
+
+.btnSec {
+    margin: 70px 20px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    background-color: #457EAB;
+    color: white !important;
+    text-decoration: none !important;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btnSec:hover{
+    background-color: #092a43;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .contactMe {
+        display: block;
+        margin: 70px 0;
+    }
+
+    .btnSec {
+        margin: 20px 5px;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 20px 40px;
+        width: 50%;
+    }
+
+    .h2Sec {
+        font-size: 18px;
+        margin: 40px 10px;
+    }
+
+
+}
