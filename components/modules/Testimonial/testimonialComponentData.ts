@@ -5,7 +5,7 @@ export const testimonialComponentData: Array<ITestimonialComponentData> = [
         key: 1,
         profile: "zeraatkar",
         colleagueName: "Mostafa ZeraatkarMoghadam",
-        colleaguePosition: "Senior Front-End Developer at EDSAB Co",
+        colleaguePosition: "DBA at EDSAB Co",
         description: "Working with Hamidreza Nasiri has been an absolute pleasure. As a dedicated Database Administrator and Developer at EDSAB, Hamidreza consistently demonstrated his deep expertise in Oracle databases and GIS-based systems. His ability to tackle complex problems, optimize database performance, and seamlessly integrate spatial data into our systems was truly impressive. Beyond his technical skills, Hamidreza's proactive approach and collaborative spirit made him a key asset to our team. Additionally, his sense of humor and light-hearted nature brought positive energy to the workplace, making him a joy to work with. Any team would be fortunate to have someone like Hamidreza on board.",
         linkedin: "https://www.linkedin.com/in/mostafa-zeraatkarmoghadam-82689587/"
     },
@@ -21,7 +21,7 @@ export const testimonialComponentData: Array<ITestimonialComponentData> = [
         key: 2,
         profile: "soltani",
         colleagueName: "Ahmad Soltanian",
-        colleaguePosition: "Tech Lead at EDSAB Co",
+        colleaguePosition: "Project Manager at EDSAB Co",
         description: "Hamidreza is an exceptional professional who brings a blend of technical expertise and a genuine passion for continuous improvement to every project. During our time working together at EDSAB, he played a crucial role in ensuring the stability and efficiency of our database systems. His strong understanding of Oracle architecture and his ability to develop efficient PL/SQL code were key in enhancing our applications. Hamidreza is not only a forward-thinking and adaptable team member, but also someone who knows how to lighten the mood with his humor. His ability to combine hard work with a friendly, humorous attitude makes him a valued colleague.",
         linkedin: "https://www.linkedin.com/in/ahmad-soltanian-7b714b1b9/"
     }

@@ -24,27 +24,24 @@ const Index = (props: any) => {
             backgroundColor: "#151515"
         }}>
             {/*<Navbar/>*/}
-            <Menu />
-            <ScrollAnimation animateIn='fadeInDown'>
-                <About/>
-            </ScrollAnimation>
+            <Menu/>
+            <About/>
             <ScrollAnimation animateIn='fadeInDown'>
                 <Technologies/>
             </ScrollAnimation>
             <ScrollAnimation animateIn="fadeIn">
                 <MayKnowTechnologies/>
             </ScrollAnimation>
-            <ScrollAnimation  animateIn='zoomIn'>
-                <WorkExperience />
+            <ScrollAnimation animateIn='zoomIn'>
+                <WorkExperience/>
             </ScrollAnimation>
             <ScrollAnimation animateIn="slideInDown">
-                <Education />
+                <Education/>
             </ScrollAnimation>
             <ScrollAnimation animateIn="fadeIn">
-                <Testimonial />
+                <Testimonial/>
             </ScrollAnimation>
-            <ScrollAnimation animateIn='pulse'
-                             duration={2}>
+            <ScrollAnimation animateIn='zoomIn'>
                 <ContactMe/>
             </ScrollAnimation>
             <Footer/>
